@@ -1,0 +1,249 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+:root
+{
+    --navbar-height: 60px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+div{
+    margin: 10px 32px;
+    border: 2px;
+    border-radius: 50%;
+}
+
+
+/* NAVIGATION BAR :LIST STYLING */
+
+#navbar ul{
+    display: flex;
+    font-family: "Oswald", sans-serif;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem ;
+
+}
+#navbar ul li a{
+    color: orangered;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: orangered;
+    background-color: white;
+}
+/* HOME */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 578px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(bg.jpg) no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 668px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+p{
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+   
+}
+.h-primary{
+    color:white;
+    font-size: 3.5rem;
+    
+    
+}
+.h-secondary{
+    color:white;
+    font-size: 2rem;
+    padding-bottom: 100px;
+    
+}
+h3{
+    color: orangered;
+    
+}
+h4{
+    color: orangered;
+}
+h1{
+    color: white;
+}
+span{
+    color: orangered;
+}
+.btn{
+    background-color: orangered;
+    color: white;
+    border: 2px;
+    height: 30px;
+    width: 80px;
+    margin-right: 40px;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    color: #FF9800;
+    background-color: white;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background-color: black;
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.box h4{
+    color: orangered;
+    font-size: 1.3rem;
+
+}
+.box p{
+    font-size: 1rem;
+}
+#train{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    height: 1000px;
+    background-color: #151515;
+}
+#content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#bigcontent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#appoint{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    
+}
+#appoint::before{
+    content: "";
+    position: absolute;
+    background: url(gallery-1.jpg) no-repeat center center/cover;
+    height: 550px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+#btntips{
+    color: #c4c4c4;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#btnp{
+    background-color: transparent;
+    border: 2px solid orangered;
+    padding :17px 30px 16px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+}
+#btnp:hover{
+    cursor: pointer;
+    background-color: orangered;
+}
+
+#address
+{
+    background-color: #0a0a0a;
+}
+#gd-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+    padding: 13px 0px 30px;
+}
+#gd-text i {
+    font-size: 30px;
+    color: #ffffff;
+    display: inline-block;
+    height: 65px;
+    width: 65px;
+    background: #f36100;
+    border-radius: 50%;
+    line-height: 65px;
+    text-align: center;
+    margin-right: 20px;
+}
+#gd-text p {
+    overflow: hidden;
+    color: #ffffff;
+    margin-bottom: 0;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.map{
+    display: flex;
+}
+.phone{
+    display: flex;
+}
+.gmail{
+    display: flex;
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-top: 0.2px solid rgb(219, 219, 219);
+}
